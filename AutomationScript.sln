@@ -34,14 +34,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{9AAD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nicky_empower_automation_script", "nicky-empower-automation-script_1\nicky_empower_automation_script.csproj", "{78DD5F97-CDF0-4CB3-B079-09BC8074ABB7}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nicky-empower-automation-script-two", "nicky-empower-automation-script-two", "{B132A2DF-6186-4384-A9DC-E7531F7A8ED4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{887AB49B-E39F-4545-B054-2CB5E3E3DA80}"
 	ProjectSection(SolutionItems) = preProject
-		nicky-empower-automation-script-two.xml = nicky-empower-automation-script-two.xml
+		test.xml = test.xml
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{6A2082DE-7C13-4106-95BF-7F2DBC8D568E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{1AF81D52-E198-4841-A85C-81D09BD7A62A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nicky-empower-automation-script-two", "nicky-empower-automation-script-two\nicky-empower-automation-script-two.csproj", "{DF95E8A7-16D0-4BD1-BDB8-10F7A83041A4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test_1", "test_1\test_1.csproj", "{53CD1BD6-C6B8-41C1-B0B1-304230ED6B52}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,10 +57,10 @@ Global
 		{78DD5F97-CDF0-4CB3-B079-09BC8074ABB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78DD5F97-CDF0-4CB3-B079-09BC8074ABB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78DD5F97-CDF0-4CB3-B079-09BC8074ABB7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DF95E8A7-16D0-4BD1-BDB8-10F7A83041A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DF95E8A7-16D0-4BD1-BDB8-10F7A83041A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DF95E8A7-16D0-4BD1-BDB8-10F7A83041A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DF95E8A7-16D0-4BD1-BDB8-10F7A83041A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53CD1BD6-C6B8-41C1-B0B1-304230ED6B52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53CD1BD6-C6B8-41C1-B0B1-304230ED6B52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53CD1BD6-C6B8-41C1-B0B1-304230ED6B52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53CD1BD6-C6B8-41C1-B0B1-304230ED6B52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -71,9 +71,9 @@ Global
 		{7D9FF2F6-7744-470C-A076-D8C1BE147362} = {A600B216-AD15-4BF5-AB36-51D3A13E4D52}
 		{9AADC45C-24F9-446A-B2F5-E247284E6F05} = {7D9FF2F6-7744-470C-A076-D8C1BE147362}
 		{78DD5F97-CDF0-4CB3-B079-09BC8074ABB7} = {9AADC45C-24F9-446A-B2F5-E247284E6F05}
-		{B132A2DF-6186-4384-A9DC-E7531F7A8ED4} = {A600B216-AD15-4BF5-AB36-51D3A13E4D52}
-		{6A2082DE-7C13-4106-95BF-7F2DBC8D568E} = {B132A2DF-6186-4384-A9DC-E7531F7A8ED4}
-		{DF95E8A7-16D0-4BD1-BDB8-10F7A83041A4} = {6A2082DE-7C13-4106-95BF-7F2DBC8D568E}
+		{887AB49B-E39F-4545-B054-2CB5E3E3DA80} = {A600B216-AD15-4BF5-AB36-51D3A13E4D52}
+		{1AF81D52-E198-4841-A85C-81D09BD7A62A} = {887AB49B-E39F-4545-B054-2CB5E3E3DA80}
+		{53CD1BD6-C6B8-41C1-B0B1-304230ED6B52} = {1AF81D52-E198-4841-A85C-81D09BD7A62A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A7EAE57C-E7C5-4841-86D2-47095A7E0668}
