@@ -18,7 +18,7 @@
 
 	<Script>
 		<Exe id="1" type="csharp">
-			<Value><![CDATA[[Project:nicky_empower_automation_script]]]></Value>
+			<Value><![CDATA[[Project:nicky_empower_automation_script_two]]]></Value>
 			<!--<Param type="debug">true</Param>-->
 			<Message></Message>
 		</Exe>
