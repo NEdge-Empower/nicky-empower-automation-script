@@ -51,10 +51,6 @@ dd/mm/2023	1.0.0.1		XXX, Skyline	Initial version
 
 namespace nicky_empower_automation_script
 {
-	using System;
-	using System.Collections.Generic;
-	using System.Globalization;
-	using System.Text;
 	using Skyline.DataMiner.Automation;
 	using Skyline.DataMiner.Core.DataMinerSystem.Automation;
 	using Skyline.DataMiner.Core.DataMinerSystem.Common;
