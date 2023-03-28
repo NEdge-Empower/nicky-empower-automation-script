@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{2A829D79-B38C-4EB3-86B0-335AAD7A6530}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{A600B216-AD15-4BF5-AB36-51D3A13E4D52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dlls", "Dlls", "{364B44B4-2D45-4A45-8F66-3B336506F9A8}"
+	ProjectSection(SolutionItems) = preProject
+		Dlls\readme.txt = Dlls\readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{401D64E5-0121-4AE9-9D1C-47DA5207A8A2}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\readme.txt = Documentation\readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{F8F4CFED-7137-4855-A692-45AB0F804C5A}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomationScript_ClassLibrary", "AutomationScript_ClassLibrary\AutomationScript_ClassLibrary.csproj", "{285AAF77-B181-4CCF-A7AA-00BCB6B5A20C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nicky-empower-automation-script", "nicky-empower-automation-script", "{7D9FF2F6-7744-470C-A076-D8C1BE147362}"
+	ProjectSection(SolutionItems) = preProject
+		nicky-empower-automation-script.xml = nicky-empower-automation-script.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{9AADC45C-24F9-446A-B2F5-E247284E6F05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nicky_empower_automation_script", "nicky-empower-automation-script_1\nicky_empower_automation_script.csproj", "{78DD5F97-CDF0-4CB3-B079-09BC8074ABB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{285AAF77-B181-4CCF-A7AA-00BCB6B5A20C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{285AAF77-B181-4CCF-A7AA-00BCB6B5A20C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{285AAF77-B181-4CCF-A7AA-00BCB6B5A20C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{285AAF77-B181-4CCF-A7AA-00BCB6B5A20C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78DD5F97-CDF0-4CB3-B079-09BC8074ABB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78DD5F97-CDF0-4CB3-B079-09BC8074ABB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78DD5F97-CDF0-4CB3-B079-09BC8074ABB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78DD5F97-CDF0-4CB3-B079-09BC8074ABB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F8F4CFED-7137-4855-A692-45AB0F804C5A} = {2A829D79-B38C-4EB3-86B0-335AAD7A6530}
+		{285AAF77-B181-4CCF-A7AA-00BCB6B5A20C} = {2A829D79-B38C-4EB3-86B0-335AAD7A6530}
+		{7D9FF2F6-7744-470C-A076-D8C1BE147362} = {A600B216-AD15-4BF5-AB36-51D3A13E4D52}
+		{9AADC45C-24F9-446A-B2F5-E247284E6F05} = {7D9FF2F6-7744-470C-A076-D8C1BE147362}
+		{78DD5F97-CDF0-4CB3-B079-09BC8074ABB7} = {9AADC45C-24F9-446A-B2F5-E247284E6F05}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7EAE57C-E7C5-4841-86D2-47095A7E0668}
+	EndGlobalSection
+EndGlobal
